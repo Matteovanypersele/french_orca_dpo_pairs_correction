@@ -1,9 +1,26 @@
 
-Typologie des erreurs :
-Erreur 1 due à une langue étrangère mal supportée par le traducteur
-Erreur 2 due à une demande de traduction en une langue en particulier (anglais, italien etc). Le traducteur traduit en français la traduction en anglais.
-Erreur 3 due à une étape de réflexion en anglais qui est resté partiellement en anglais (pour traduire du japonais le modèle commence par traduire en anglais mais seul une partie reste en anglais) nous avons pris le parti de faire l’étape intermédiaire en français
-Erreur 4 la question est restée en anglais mais les réponses sont en français et en anglais, partie a été pris de garder une version full français et une version full anglais
-Erreur 5 la question et les réponses sont en anglais sans raison apparente
-Erreur 6 la réponse ou la question originale n’est pas en anglais mais a été traduite en français, on la remet donc en langue originale
+# Typologie des Erreurs de Traduction
+
+
+## Erreur 1 : Langue étrangère mal supportée
+Erreur due à une langue étrangère mal supportée par le traducteur.
+
+## Erreur 2 : Traduction incorrecte vers une langue spécifique
+Le traducteur traduit en français une traduction qui était destinée à être en anglais ou une autre langue spécifique.
+
+
+## Erreur 3 : Réflexion intermédiaire partiellement en anglais
+Une étape de réflexion en anglais reste partiellement en anglais lors de la traduction vers une autre langue que l'anglais
+
+
+## Erreur 4 : Questions en anglais avec réponses bilingues
+La question est en anglais, mais les réponses sont en français et en anglais. Solution actuelle, maintenir une version entièrement en français et ajouter dans un second temps des versions entièrement en anglais pour plus de clarté.
+
+## Erreur 5 : Questions et réponses entièrement en anglais sans raison apparente (est ce vraiment une erreur ?)
+La question et les réponses sont en anglais sans raison apparente
+
+
+## Erreur 6 : Traduction d'une langue autre que l'anglais en français
+La réponse ou la question originale n'est pas en anglais mais a été traduite en français.
+
 
